@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d714a1c5-7242-450c-8b44-eb12f90baac7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PythonPart2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/APIsNikolina.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/AbschlussProjekt/Menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/AbschlussProjekt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/AbschlussProjekt/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/AbschlussProjekt/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/AbschlussProjekt_test2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/AbschlussProjekt_test2/chat.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/AbschlussProjekt_test2/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/AbschlussProjekt_test2/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/Functions/book_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/Functions/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/Functions/user_selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/data/books/Alice's Adventures in Wonderland - Lewis Carroll .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/data/books/Crime and Punishment - Fyodor Dostoyevsky .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/data/books/Dracula - Bram Stoker .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/data/books/Little Women; Or, Meg, Jo, Beth, and Amy - Louisa May Alcott .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/data/books/Romeo and Juliet - William Shakespeare .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/data/books/The Picture of Dorian Gray - Oscar Wilde .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/data/books/The Republic - Plato .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/data/books/The divine comedy - Dante Alighieri .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/data/books/Twenty Thousand Leagues under the Sea - Jules Verne .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/FinalProjectPart2GUI/chat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/FinalProjectPart2GUI/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/SQLlite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/SQLlite/sqllite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/TEST2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/Test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/books/BookAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/books/ReadOutBooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/books/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/books/ÜbungIBAN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/books_OOP/BooksAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/books_OOP/Books_readOut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/books_OOP/MenuBooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/books_OOP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPart2/ÜbungRegEX/ÜbungRegEx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonPart2/.idea/PythonPart2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPart2/.idea/PythonPart2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonPart2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPart2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/Functions/FileLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPart2/DOCUMENTATION CHRISTINA MAYER/KLR-346/BookBrowser prozedural/Julio/BookBrowser JBr/Functions/FileLoader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonPart2/LAB 2.18.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPart2/LAB 2.18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonPart2/Nikolina.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPart2/Nikolina.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PythonPart2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="32Kgm4CRfmOdlA2I2VEcUksWDKN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Download Images.executor&quot;: &quot;Run&quot;,
+    &quot;Python.client.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Nikol1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NikolinaCopernicus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NikolinaCopernicus/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d714a1c5-7242-450c-8b44-eb12f90baac7" name="Changes" comment="" />
+      <created>1757174833577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757174833577</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
