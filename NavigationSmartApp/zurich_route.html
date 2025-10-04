@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a60260c2aeb5bf60fa5300eb633d69db {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a60260c2aeb5bf60fa5300eb633d69db" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a60260c2aeb5bf60fa5300eb633d69db = L.map(
+                "map_a60260c2aeb5bf60fa5300eb633d69db",
+                {
+                    center: [47.3769, 8.5417],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4e3686d42725cbcd4bb86db0733d3b99 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4e3686d42725cbcd4bb86db0733d3b99.addTo(map_a60260c2aeb5bf60fa5300eb633d69db);
+        
+    
+            var poly_line_5adcf5b926b6583e59b1240c1dabee3b = L.polyline(
+                [[47.3784103, 8.5410223], [47.3782843, 8.5413721], [47.3780266, 8.5414973], [47.3771171, 8.5410497], [47.3770175, 8.5408006], [47.3769564, 8.5420936], [47.3769218, 8.5425117], [47.3768594, 8.5431967], [47.3768439, 8.5433046], [47.3768056, 8.5434177], [47.3767721, 8.5435449], [47.3768426, 8.5441968], [47.3767462, 8.5445261], [47.376651, 8.5445901], [47.3764875, 8.5447002], [47.3751303, 8.5455645], [47.3746636, 8.545873], [47.3730571, 8.5472009], [47.372504, 8.5475195], [47.3716039, 8.5477126], [47.3709241, 8.5470461], [47.3692263, 8.5479749], [47.368264, 8.5467952], [47.36796, 8.5461428], [47.3675213, 8.5452021], [47.3671843, 8.5442911], [47.3671028, 8.5443009], [47.3669094, 8.5443877], [47.3665387, 8.5447736], [47.3664253, 8.545065], [47.3664323, 8.5451415], [47.3663327, 8.5451457], [47.3663313, 8.545241], [47.3663295, 8.5453037]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a60260c2aeb5bf60fa5300eb633d69db);
+        
+    
+            var marker_946e81c288eec9df4774af19d6ba26eb = L.marker(
+                [47.3784103, 8.5410223],
+                {
+}
+            ).addTo(map_a60260c2aeb5bf60fa5300eb633d69db);
+        
+    
+            var icon_b1d58cd188ba74c4fd978ee08f14926e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b79f63aaa7f41d63b609f71407f774c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaa4f53d6004e8a7be72e8599e34748d = $(`<div id="html_eaa4f53d6004e8a7be72e8599e34748d" style="width: 100.0%; height: 100.0%;">Start</div>`)[0];
+                popup_b79f63aaa7f41d63b609f71407f774c9.setContent(html_eaa4f53d6004e8a7be72e8599e34748d);
+            
+        
+
+        marker_946e81c288eec9df4774af19d6ba26eb.bindPopup(popup_b79f63aaa7f41d63b609f71407f774c9)
+        ;
+
+        
+    
+    
+                marker_946e81c288eec9df4774af19d6ba26eb.setIcon(icon_b1d58cd188ba74c4fd978ee08f14926e);
+            
+    
+            var marker_ea3ba35946a1cfb1cf5d4c6e3a035332 = L.marker(
+                [47.3663295, 8.5453037],
+                {
+}
+            ).addTo(map_a60260c2aeb5bf60fa5300eb633d69db);
+        
+    
+            var icon_9a3558b33670201a4ab7b61d700ce50b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ab6941b6884fa9ef3f73cbebe4664e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d424f72e9e09b1f4efee7203d6ef595b = $(`<div id="html_d424f72e9e09b1f4efee7203d6ef595b" style="width: 100.0%; height: 100.0%;">Destination</div>`)[0];
+                popup_4ab6941b6884fa9ef3f73cbebe4664e6.setContent(html_d424f72e9e09b1f4efee7203d6ef595b);
+            
+        
+
+        marker_ea3ba35946a1cfb1cf5d4c6e3a035332.bindPopup(popup_4ab6941b6884fa9ef3f73cbebe4664e6)
+        ;
+
+        
+    
+    
+                marker_ea3ba35946a1cfb1cf5d4c6e3a035332.setIcon(icon_9a3558b33670201a4ab7b61d700ce50b);
+            
+    
+            var marker_ea13c90c22ac4d95cb76debb785bcb10 = L.marker(
+                [47.3847268794, 8.5065142429],
+                {
+}
+            ).addTo(map_a60260c2aeb5bf60fa5300eb633d69db);
+        
+    
+            var icon_20030f464e0188d2e0fd6eb874af0d5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_43dd027b9dd47f8c62d564f29c683cb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7c1c273e9a5c0f3b0a39d437b62dd29 = $(`<div id="html_d7c1c273e9a5c0f3b0a39d437b62dd29" style="width: 100.0%; height: 100.0%;">Baustelle: Test Gleisbaustelle Luchswiesen (Test Gleisbaustelle Luchswiesen (Standort nicht exakt))</div>`)[0];
+                popup_43dd027b9dd47f8c62d564f29c683cb0.setContent(html_d7c1c273e9a5c0f3b0a39d437b62dd29);
+            
+        
+
+        marker_ea13c90c22ac4d95cb76debb785bcb10.bindPopup(popup_43dd027b9dd47f8c62d564f29c683cb0)
+        ;
+
+        
+    
+    
+                marker_ea13c90c22ac4d95cb76debb785bcb10.setIcon(icon_20030f464e0188d2e0fd6eb874af0d5f);
+            
+    
+            var marker_8726147b92abfa987bbaa6efe1b98df0 = L.marker(
+                [47.383936195, 8.5333310414],
+                {
+}
+            ).addTo(map_a60260c2aeb5bf60fa5300eb633d69db);
+        
+    
+            var icon_d7d7c9ad96425671f3d5f03ab7001f4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b0668c4c413f5943da78c9c7ac736a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7920e5b526d6971a26f85a994d3762a7 = $(`<div id="html_7920e5b526d6971a26f85a994d3762a7" style="width: 100.0%; height: 100.0%;">Baustelle: Test Gleisbaustelle Stampfenbachstrasse (Test Gleisbaustelle Stampfenbachstrasse (Standort nicht exakt))</div>`)[0];
+                popup_9b0668c4c413f5943da78c9c7ac736a7.setContent(html_7920e5b526d6971a26f85a994d3762a7);
+            
+        
+
+        marker_8726147b92abfa987bbaa6efe1b98df0.bindPopup(popup_9b0668c4c413f5943da78c9c7ac736a7)
+        ;
+
+        
+    
+    
+                marker_8726147b92abfa987bbaa6efe1b98df0.setIcon(icon_d7d7c9ad96425671f3d5f03ab7001f4a);
+            
+    
+            var marker_cd1599647b84af7504d0eeb5fad6de9e = L.marker(
+                [47.3847268794, 8.5065142429],
+                {
+}
+            ).addTo(map_a60260c2aeb5bf60fa5300eb633d69db);
+        
+    
+            var icon_2539ea5bf933032e5b39b3b43673f377 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2d69145fc7f87d82a99b72fa70b5d49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ea46e8a51cb61d4c310e21530f49bed = $(`<div id="html_8ea46e8a51cb61d4c310e21530f49bed" style="width: 100.0%; height: 100.0%;">Baustelle: Test Gleisbaustelle Birmensdorferstrasse   (Test Gleisbaustelle Birmensdorferstrasse  (Standort nicht exakt erfasst))</div>`)[0];
+                popup_f2d69145fc7f87d82a99b72fa70b5d49.setContent(html_8ea46e8a51cb61d4c310e21530f49bed);
+            
+        
+
+        marker_cd1599647b84af7504d0eeb5fad6de9e.bindPopup(popup_f2d69145fc7f87d82a99b72fa70b5d49)
+        ;
+
+        
+    
+    
+                marker_cd1599647b84af7504d0eeb5fad6de9e.setIcon(icon_2539ea5bf933032e5b39b3b43673f377);
+            
+    
+            var marker_e09ba399992afaea1d2e8b30d27e9c58 = L.marker(
+                [47.3649560336, 8.5540582793],
+                {
+}
+            ).addTo(map_a60260c2aeb5bf60fa5300eb633d69db);
+        
+    
+            var icon_7579231a9dc83691b824643f5c6519e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_27285659b2346390a62d9544f9294b31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_810991da67780ce093a59ed19fb80d62 = $(`<div id="html_810991da67780ce093a59ed19fb80d62" style="width: 100.0%; height: 100.0%;">Baustelle: Gleisbaustelle Kreuzplatz (Die Baustelle am Kreuzplatz dauert noch bis 31. Oktober 2025)</div>`)[0];
+                popup_27285659b2346390a62d9544f9294b31.setContent(html_810991da67780ce093a59ed19fb80d62);
+            
+        
+
+        marker_e09ba399992afaea1d2e8b30d27e9c58.bindPopup(popup_27285659b2346390a62d9544f9294b31)
+        ;
+
+        
+    
+    
+                marker_e09ba399992afaea1d2e8b30d27e9c58.setIcon(icon_7579231a9dc83691b824643f5c6519e1);
+            
+</script>
+</html>
