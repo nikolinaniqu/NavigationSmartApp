@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3fb07e23cb581fd21bcab7e76aa8afdf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3fb07e23cb581fd21bcab7e76aa8afdf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3fb07e23cb581fd21bcab7e76aa8afdf = L.map(
+                "map_3fb07e23cb581fd21bcab7e76aa8afdf",
+                {
+                    center: [47.3782, 8.5402],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8ffce0997f39aac9eb143ee2b00096b4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8ffce0997f39aac9eb143ee2b00096b4.addTo(map_3fb07e23cb581fd21bcab7e76aa8afdf);
+        
+    
+            var poly_line_9cf6f5ac006435d32eabdaf331240270 = L.polyline(
+                [[47.37845, 8.54035], [47.37838, 8.54062], [47.37839, 8.54068], [47.37845, 8.54073], [47.37836, 8.54088], [47.37832, 8.54105], [47.37831, 8.54108], [47.3783, 8.54113], [47.37829, 8.54115], [47.37828, 8.54118], [47.37827, 8.54121], [47.37826, 8.54122], [47.37826, 8.54124], [47.37825, 8.54125], [47.37823, 8.54129], [47.37817, 8.54131], [47.37815, 8.54132], [47.37814, 8.54133], [47.37809, 8.54135], [47.37805, 8.54137], [47.378, 8.5414], [47.37796, 8.54142], [47.37792, 8.54144], [47.37783, 8.54143], [47.37782, 8.54143], [47.3778, 8.54143], [47.37778, 8.54143], [47.37777, 8.54143], [47.37775, 8.54143], [47.37774, 8.54143], [47.37772, 8.54142], [47.3777, 8.54142], [47.37768, 8.54142], [47.37766, 8.54141], [47.37765, 8.54141], [47.37763, 8.54141], [47.37761, 8.5414], [47.37758, 8.5414], [47.37806, 8.54168], [47.37805, 8.54164], [47.37808, 8.54162], [47.37829, 8.5415], [47.37836, 8.54146], [47.37838, 8.54145], [47.3784, 8.54143], [47.37842, 8.5414], [47.37844, 8.54136], [47.37846, 8.54132], [47.37847, 8.54129], [47.37848, 8.54128], [47.3785, 8.54118], [47.37851, 8.54115], [47.37851, 8.541], [47.37852, 8.54085], [47.37854, 8.54068], [47.37857, 8.54051], [47.37862, 8.5403], [47.37877, 8.53975], [47.37883, 8.53952], [47.37887, 8.5394], [47.37896, 8.53905], [47.37901, 8.53886], [47.37906, 8.53872], [47.37918, 8.5384], [47.37931, 8.53807], [47.37939, 8.53786], [47.37941, 8.53782], [47.3795, 8.5376], [47.37953, 8.53754], [47.37956, 8.53747], [47.37959, 8.53746], [47.37959, 8.53745], [47.37965, 8.53743], [47.37968, 8.53743], [47.37972, 8.53744], [47.37981, 8.53748], [47.37995, 8.53755], [47.38007, 8.53761], [47.38009, 8.53762], [47.38012, 8.53762], [47.38013, 8.53762], [47.38015, 8.53761], [47.38019, 8.53759], [47.38025, 8.53752], [47.38028, 8.53749], [47.38029, 8.53747], [47.38034, 8.5374], [47.38041, 8.5373], [47.38054, 8.53713], [47.38129, 8.53611], [47.38135, 8.53603], [47.38146, 8.53591], [47.38165, 8.53564], [47.38216, 8.53493], [47.38232, 8.53472], [47.38234, 8.53474], [47.38221, 8.53495], [47.38221, 8.53496], [47.38237, 8.53519], [47.38241, 8.53516], [47.38244, 8.53514], [47.38247, 8.53515], [47.38249, 8.53515], [47.3825, 8.53516], [47.38252, 8.53517], [47.38254, 8.5352], [47.3827, 8.53498], [47.38288, 8.53527]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3fb07e23cb581fd21bcab7e76aa8afdf);
+        
+    
+            poly_line_9cf6f5ac006435d32eabdaf331240270.bindTooltip(
+                `<div>
+                     Public Transport
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_48c1e1c4ff7984b16f5e74c06c520211 = L.polyline(
+                [[47.378186, 8.5405832], [47.3783819, 8.5406902], [47.3786248, 8.5399881], [47.3786598, 8.5399798], [47.378726, 8.5397372], [47.3787639, 8.5397598], [47.3790863, 8.5386394], [47.3791807, 8.5387209], [47.379201, 8.5386784], [47.3796624, 8.5376809], [47.3797137, 8.5374836], [47.3800282, 8.5376618], [47.3803044, 8.5378059], [47.3805024, 8.5379046], [47.3809332, 8.5379045], [47.3810176, 8.5377815], [47.3813365, 8.5373525], [47.3818547, 8.536679], [47.3818568, 8.5366521], [47.3819251, 8.5365587], [47.3819414, 8.536559], [47.3820006, 8.536656], [47.3826458, 8.5358163], [47.3827168, 8.5357219], [47.3829382, 8.5354172]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3fb07e23cb581fd21bcab7e76aa8afdf);
+        
+    
+            poly_line_48c1e1c4ff7984b16f5e74c06c520211.bindTooltip(
+                `<div>
+                     Walking
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b84bbaf6f1c570cfe9eef24814e02b99 = L.polyline(
+                [[47.3784103, 8.5410223], [47.3785683, 8.5412177], [47.3796238, 8.5375052], [47.3809532, 8.5381354], [47.3819318, 8.536661], [47.3824254, 8.5359912]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3fb07e23cb581fd21bcab7e76aa8afdf);
+        
+    
+            poly_line_b84bbaf6f1c570cfe9eef24814e02b99.bindTooltip(
+                `<div>
+                     Driving
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_489c7eeb2f4b99ac1ee9f99d469bffc5 = L.marker(
+                [47.3847268794, 8.5065142429],
+                {
+}
+            ).addTo(map_3fb07e23cb581fd21bcab7e76aa8afdf);
+        
+    
+            var icon_49401aac940672c5f42cb0eaf3c008c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1629dee6841091f502bfada9016a2a1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_569a9b222fd319aba62dc835f59fdb04 = $(`<div id="html_569a9b222fd319aba62dc835f59fdb04" style="width: 100.0%; height: 100.0%;"><b>Baustelle:</b> Test Gleisbaustelle Luchswiesen<br>Test Gleisbaustelle Luchswiesen (Standort nicht exakt)</div>`)[0];
+                popup_1629dee6841091f502bfada9016a2a1e.setContent(html_569a9b222fd319aba62dc835f59fdb04);
+            
+        
+
+        marker_489c7eeb2f4b99ac1ee9f99d469bffc5.bindPopup(popup_1629dee6841091f502bfada9016a2a1e)
+        ;
+
+        
+    
+    
+                marker_489c7eeb2f4b99ac1ee9f99d469bffc5.setIcon(icon_49401aac940672c5f42cb0eaf3c008c8);
+            
+    
+            var marker_3be38f5ae94ac307cf21ae1dc37e635b = L.marker(
+                [47.383936195, 8.5333310414],
+                {
+}
+            ).addTo(map_3fb07e23cb581fd21bcab7e76aa8afdf);
+        
+    
+            var icon_88cf33b62d7e172996db0037d84f4c89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4930881799a9aad71803f15c9efdfb5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5df026e4c00c0506fc943de843b3e3d9 = $(`<div id="html_5df026e4c00c0506fc943de843b3e3d9" style="width: 100.0%; height: 100.0%;"><b>Baustelle:</b> Test Gleisbaustelle Stampfenbachstrasse<br>Test Gleisbaustelle Stampfenbachstrasse (Standort nicht exakt)</div>`)[0];
+                popup_a4930881799a9aad71803f15c9efdfb5.setContent(html_5df026e4c00c0506fc943de843b3e3d9);
+            
+        
+
+        marker_3be38f5ae94ac307cf21ae1dc37e635b.bindPopup(popup_a4930881799a9aad71803f15c9efdfb5)
+        ;
+
+        
+    
+    
+                marker_3be38f5ae94ac307cf21ae1dc37e635b.setIcon(icon_88cf33b62d7e172996db0037d84f4c89);
+            
+    
+            var marker_1736c6f1a0030e3d0bdcf716fa55a722 = L.marker(
+                [47.3847268794, 8.5065142429],
+                {
+}
+            ).addTo(map_3fb07e23cb581fd21bcab7e76aa8afdf);
+        
+    
+            var icon_1fed4a65c97b1b3cd93b9bcea9bc11ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88eafaa8c9ae62fcf078b4354140ddda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5839a85723cb13ed6eed7c1c80d35657 = $(`<div id="html_5839a85723cb13ed6eed7c1c80d35657" style="width: 100.0%; height: 100.0%;"><b>Baustelle:</b> Test Gleisbaustelle Birmensdorferstrasse  <br>Test Gleisbaustelle Birmensdorferstrasse  (Standort nicht exakt erfasst)</div>`)[0];
+                popup_88eafaa8c9ae62fcf078b4354140ddda.setContent(html_5839a85723cb13ed6eed7c1c80d35657);
+            
+        
+
+        marker_1736c6f1a0030e3d0bdcf716fa55a722.bindPopup(popup_88eafaa8c9ae62fcf078b4354140ddda)
+        ;
+
+        
+    
+    
+                marker_1736c6f1a0030e3d0bdcf716fa55a722.setIcon(icon_1fed4a65c97b1b3cd93b9bcea9bc11ad);
+            
+    
+            var marker_e03ef736e2ae51b8d9e305c561b7844d = L.marker(
+                [47.3649560336, 8.5540582793],
+                {
+}
+            ).addTo(map_3fb07e23cb581fd21bcab7e76aa8afdf);
+        
+    
+            var icon_2fb69a7b589f773e90d5b761b8f9cc77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe27b21d964d9b70e5bb3e087e2fe5a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69794e9cb951337f3d4d5787fea6744e = $(`<div id="html_69794e9cb951337f3d4d5787fea6744e" style="width: 100.0%; height: 100.0%;"><b>Baustelle:</b> Gleisbaustelle Kreuzplatz<br>Die Baustelle am Kreuzplatz dauert noch bis 31. Oktober 2025</div>`)[0];
+                popup_fe27b21d964d9b70e5bb3e087e2fe5a2.setContent(html_69794e9cb951337f3d4d5787fea6744e);
+            
+        
+
+        marker_e03ef736e2ae51b8d9e305c561b7844d.bindPopup(popup_fe27b21d964d9b70e5bb3e087e2fe5a2)
+        ;
+
+        
+    
+    
+                marker_e03ef736e2ae51b8d9e305c561b7844d.setIcon(icon_2fb69a7b589f773e90d5b761b8f9cc77);
+            
+</script>
+</html>
